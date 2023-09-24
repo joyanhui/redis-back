@@ -1,0 +1,13 @@
+__debug_bin*
+*.lock
+*.bin
+*.goexe
+*_exe
+*/.oh-my-zsh
+*/.zshrc
+_db/
+*/_jsonfile_entrypoint_/*
+*.mpy
+*.sqlite
+*pebble_db*
+*.json
