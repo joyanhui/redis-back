@@ -35,7 +35,7 @@
 #### tls
 如果提示 tls: failed to verify certificate: x509: certificate is not valid for any names, but wanted to match XXX。 这是证书不包含你当前的域名。这是证书的问题，你可以用 跳过证书验证的方式来处理
 #### stream
-stream导出后会丢失客户订阅消息，请酌情使用。
+stream导出后会丢失客户端ack记录，请酌情使用。
 ### 集群导入导出原理
 连接到单个节点上之后，会首先查询一次Cluster信息如果查询成功则按照Cluster集群处理。如果失败就按照单个节点处理。  
 导出的时候会逐个轮询到Cluster的每一个主节点上查询keys 根据类型来处理。  导入的时候就直接导入了。
