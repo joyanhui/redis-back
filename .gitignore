@@ -11,3 +11,4 @@ _db/
 *.sqlite
 *pebble_db*
 *.json
+redis_back_test

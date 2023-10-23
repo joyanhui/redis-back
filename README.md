@@ -47,7 +47,8 @@ stream导出后会丢失客户端ack记录，请酌情使用。
 ```
 ### 编译
 
-```
+```bash
+apt-get install build-essential
 mkdir redis-back&& cd redis-back
 wget https://github.com/joyanhui/redis-back/archive/refs/heads/main.zip 
 unzip main.zip 

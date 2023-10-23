@@ -76,6 +76,7 @@ func GetRedisClient(args []string) redis.UniversalClient {
 		log.Println("可能不是连接到的cluster集群,后面做单节点处理:", err)
 		return rdb
 	} else { //从单个节点中获取集群
+		log.Println("当前应该是连接到集群")
 		lines := strings.Split(val, "\n")
 		var addrs []string
 		for _, line := range lines {
