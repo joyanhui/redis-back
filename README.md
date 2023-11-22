@@ -1,3 +1,5 @@
+已经停止维护，建议使用  https://github.com/tair-opensource/RedisShake
+
 ### 功能
 - [x] redis 导入 和导出json  
 - [x] redis集群   
